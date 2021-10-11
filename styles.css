@@ -91,6 +91,8 @@ body{
 @media(max-width: 910px){
     body{
         overflow-y: visible;
+        height: auto;
+        margin-top: 50px;
     }
     .card-container{
         width: 300px;
