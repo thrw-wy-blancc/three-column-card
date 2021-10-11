@@ -89,12 +89,8 @@ body{
 }
 
 @media(max-width: 910px){
-    html{
-        padding: 40px;
-    }
     body{
         overflow-y: visible;
-        height: auto;
     }
     .card-container{
         width: 300px;
