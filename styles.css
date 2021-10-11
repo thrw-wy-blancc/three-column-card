@@ -19,6 +19,7 @@ body{
 }
 .card-container{
     display: flex;
+    flex-wrap: wrap;
     height: 500px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
@@ -85,4 +86,23 @@ body{
     color: white;
     background-color: transparent;
 
+}
+
+@media(max-width: 910px){
+    html{
+        padding: 40px;
+    }
+    body{
+        overflow-y: visible;
+        height: auto;
+    }
+    .card-container{
+        width: 300px;
+    }
+    .sedan-card{
+        border-radius: 10px 10px 0 0;
+    }
+    .luxury-card{
+        border-radius: 0 0 10px 10px;
+    }
 }
